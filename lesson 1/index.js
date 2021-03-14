@@ -1,4 +1,4 @@
-// 1 Переменные
+// ================== Переменные ================== 
 
 const firstName = "Artem"
 const lastNAme = 'Popov'
@@ -13,7 +13,7 @@ const $ = 250
 // console.log(isNoValid)
 
 
-// 2 Операторы 
+// ================== Операторы ================== 
 
 // const flash = prompt("Input your name: ")
 // alert("Ваше имя: " + flash);
@@ -50,11 +50,30 @@ const $ = 250
 
 // alert("Your number is: " + z)
 
-x = 6
-y = 3
+// x = 6
+// y = 3
 
 // console.log(x++)
 // console.log(x)
 
 // console.log(x = x + y)
-console.log(x += y)
+// console.log(x += y)
+
+// ================== Типы данных ================== 
+
+const boolean = true
+const string = "artem"
+const number = 17
+let x
+let z = null
+const array = []
+const obj = {}
+
+
+console.log(typeof boolean)
+console.log(typeof string)
+console.log(typeof number)
+console.log(typeof x)
+console.log(typeof z)
+console.log(typeof array)
+console.log(typeof obj)
